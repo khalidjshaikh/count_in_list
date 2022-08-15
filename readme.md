@@ -1,8 +1,8 @@
 # test_package
 
-Needed to generate packages.
+Packages required to generate packages.
 ```
-pip3 install setuptools wheel
+pip install setuptools wheel
 ```
 
 Generate build, dist, and test_package.egg-info.
@@ -10,7 +10,12 @@ Generate build, dist, and test_package.egg-info.
 python setup.py sdist bdist_wheel
 ```
 
-Needed to deploy.
+Package required to deploy.
 ```
 pip install twine
+```
+
+Upload the package
+```
+twine upload --repository pypi dist/*
 ```
