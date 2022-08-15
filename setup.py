@@ -12,7 +12,7 @@ setuptools.setup(
 	description="A sample test package",
 	long_description=description,
 	long_description_content_type="text/markdown",
-	url="https://github.com/kshaikh/test-package",
+	url="https://github.com/khalidjshaikh/test-package",
 	license='MIT',
 	python_requires='>=3.8',
 	install_requires=[]
